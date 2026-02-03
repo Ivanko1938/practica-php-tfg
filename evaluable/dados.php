@@ -36,6 +36,8 @@
 
     #numero de lanzamientos será de 5  --- creo variables, inicializadas a "0" acumularan el número de victorias por jugador
 
+    #Este comentario es una prueba de Git Hub
+
     $lanzamiento = 5;
     $victoriasJugador1 = 0;
     $victoriasJugador2 = 0;
@@ -94,7 +96,7 @@
 
         // Determino Ganador de cada ronda y añado resultados a el Array $rondasGanadas[]
         if ($suma1 > $suma2) {
-            echo "<p style='font-weight: bold; color: green;'>Ha ganado el jugador 1 🥳 esta ronda.</p>";
+            echo "<p style='font-weight: bold; color: blue;'>Ha ganado el jugador 1 🥳 esta ronda.</p>";
             $victoriasJugador1++; // Contador jugador1 aumenta si gana
             $rondasGanadas1[] = ($j + 1); // guardo la ronda ganada
         } elseif ($suma2 > $suma1) {
@@ -102,7 +104,7 @@
             $victoriasJugador2++;
             $rondasGanadas2[] = ($j + 1);
         } else {
-            echo "<p style='font-weight: bold; color: blue;'> EMPATE 😅</p>";
+            echo "<p style='font-weight: bold; color: green;'> EMPATE 😅</p>";
         }
 
         echo "</div>"; // Cierra ronda
