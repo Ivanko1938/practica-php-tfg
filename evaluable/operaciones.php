@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Operaciones web </title>
+    <title> Operaciones web ✅ </title>
 </head>
 
 <body>
@@ -26,13 +26,15 @@
         <strong> Seleccione la operación: </strong>
 
         <!-- creo los botones con los valores que harán referencia a sus funcionalidades -->
-        <input type="radio" name="operacion" value="suma" required> Suma
-        <input type="radio" name="operacion" value="resta" required> Resta
-        <input type="radio" name="operacion" value="producto" required> Producto
-        <input type="radio" name="operacion" value="cociente" required> Cociente
+        <input type="radio" name="operacion" value="suma" required> Suma ➕
+        <input type="radio" name="operacion" value="resta" required> Resta ➖
+        <input type="radio" name="operacion" value="producto" required> Producto ✖️
+        <input type="radio" name="operacion" value="cociente" required> Cociente ➗
         <br><br>
 
         <button type="submit"> Enviar Datos 📝</button>
+        <!-- mejora UI blackjack - rama colaboracion -->
+
 
     </form>
 
